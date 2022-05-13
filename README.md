@@ -8,5 +8,5 @@ Alpine based image, with mysql-client and some other tools installed.
 Default entry point is `mysql` command, but image contains other tools like `mysqldump`, `mysqladmin`, etc.
 
 ```console
-docker run --rm --interactive --tty ghcr.io/OdysseyMomentumExperience/mysql-client:latest --host db --user root -p
+docker run --rm --interactive --tty ghcr.io/momentum-xyz/mysql-client:latest --host db --user root -p
 ```
